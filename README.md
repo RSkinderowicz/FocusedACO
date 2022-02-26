@@ -17,8 +17,10 @@ To compile enter:
 
     make
 
-If successful, a new file named `faco` will contain the compiled program.
+If successful, new file named `faco` will contain the compiled program.
 
+By default, the optimized (release) version of the program is created. This can be
+changed in Makefile so that a debug version is created.
 
 ## Usage
 
@@ -47,7 +49,7 @@ Sample output:
     best sol cost: [64, 1.0s] 1620422 (3.01%)
     best sol cost: [133, 2.0s] 1612069 (2.48%)
 
-    ... omitted for the brevity ...
+    ... omitted for brevity ...
 
     best sol cost: [4883, 73.9s] 1580506 (0.47%)
     pher_deposition_time: 3.56592
